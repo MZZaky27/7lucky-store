@@ -1,0 +1,89 @@
+.navbar {
+  background-color: rgb(75, 75, 75);
+  text-align: center;
+}
+
+.navbar .container .navbar-brand {
+  font-family: viga;
+}
+
+.navbar .container #navbarNav .navbar-nav .nav-item {
+  padding-right: 10px;
+  padding-left: 10px;
+}
+
+.navbar .container #navbarNav .navbar-nav .nav-item a {
+  border-radius: 20px;
+}
+
+.navbar .container #navbarNav .navbar-nav .nav-item a:hover {
+  background-color: #cf0038;
+}
+
+.jumbotron {
+  padding: 10rem;
+  background-image: url(../pict/back.jpg);
+  background-size: cover;
+  height: 625px;
+  margin-top: -3.5rem;
+
+  color: white;
+}
+
+.jumbotron .container .display-4 {
+  padding-top: 10px;
+  font-family: "Permanent Marker", cursive;
+  text-shadow: 3px 3px 3px rgba(0, 0, 0, 1);
+}
+
+.jumbotron .container p .Main {
+  text-decoration: unset;
+  color: white;
+}
+
+.jumbotron .container p .Main:hover {
+  color: red;
+  text-decoration: underline;
+}
+
+section {
+  padding: 7rem;
+}
+
+.header {
+  font-family: "Otomanopee One", sans-serif;
+}
+
+#about {
+  background-color: #e1e1e1;
+  margin-top: -1.5rem;
+}
+
+#testimoni {
+  background-image: url(../pict/background.jpg);
+  background-size: cover;
+  margin-top: -9rem;
+}
+
+#list-topup {
+  margin-top: -8rem;
+}
+
+#contact {
+  background-color: #e1e1e1;
+  margin-top: -20px;
+}
+
+.footerbro {
+  background-color: rgb(75, 75, 75);
+}
+
+@media (min-width: 992px) {
+  .navbar {
+    background-color: transparent;
+  }
+
+  #testimoni {
+    margin-top: -15rem;
+  }
+}
